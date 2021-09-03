@@ -38,7 +38,7 @@ const SocialInfo = ({ details, loading }) => {
             }}
           >
             <Flex alignItems="center">
-              <Image mr={5} src={iconLocation} alt="iconLocation"></Image>
+              <Image mr={5} src={iconLocation} alt=""></Image>
               <SkeletonText
                 isLoaded={!loading}
                 noOfLines={1}
@@ -57,7 +57,7 @@ const SocialInfo = ({ details, loading }) => {
               </SkeletonText>
             </Flex>
             <Flex alignItems="center">
-              <Image mr={4} src={iconWebsite} alt="iconWebsite"></Image>
+              <Image mr={4} src={iconWebsite} alt=""></Image>
               <SkeletonText
                 isLoaded={!loading}
                 noOfLines={1}
@@ -85,7 +85,7 @@ const SocialInfo = ({ details, loading }) => {
             }}
           >
             <Flex alignItems="center">
-              <Image mr={5} src={iconTwitter} alt="iconTwitter"></Image>
+              <Image mr={5} src={iconTwitter} alt=""></Image>
               <SkeletonText
                 isLoaded={!loading}
                 noOfLines={1}
@@ -104,7 +104,7 @@ const SocialInfo = ({ details, loading }) => {
               </SkeletonText>
             </Flex>
             <Flex alignItems="center">
-              <Image mr={5} src={iconCompany} alt="iconCompany"></Image>
+              <Image mr={5} src={iconCompany} alt=""></Image>
               <SkeletonText
                 isLoaded={!loading}
                 noOfLines={1}

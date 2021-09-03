@@ -20,7 +20,7 @@ const SearchInput = ({ handleChange, handleSubmit, disabled, value }) => {
         <InputGroup>
           <InputLeftElement
             pointerEvents="none"
-            children={<Image src={iconSearch} alt="Icon Search"></Image>}
+            children={<Image src={iconSearch} alt=""></Image>}
             h={65}
             ml={{ base: 4, sm: 4, md: 0, lg: 0 }}
             w={{ base: 5, sm: 5, md: 20, lg: 20 }}
