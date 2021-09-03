@@ -12,11 +12,11 @@ const Stats = ({ details, loading }) => {
 
   return (
     <Box
-      mt={{ base: 135, sm: 135, md: 20, lg: 20 }}
+      mt={{ base: 140, sm: 140, md: 20, lg: 20 }}
       mb={7}
       bgColor={bg}
       py={3}
-      pl={7}
+      pl={{ base: 4, sm: 4, md: 7, lg: 7 }}
       borderRadius="10px"
     >
       {details.map((user, id) => (
