@@ -1,5 +1,17 @@
 .inputSearch::placeholder {
   color: #4b6a9b;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: -1px;
+}
+
+@media all and (max-width: 320px) {
+  .inputSearch::placeholder {
+    font-size: 11px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .inputSearch::placeholder {
+    font-size: 13px;
+  }
 }

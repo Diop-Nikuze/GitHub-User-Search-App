@@ -23,7 +23,11 @@ const Profile = ({ details, loading }) => {
             <Box>
               {" "}
               {loading ? (
-                <SkeletonCircle size="130" />
+                <SkeletonCircle
+                  size={{ base: "85", sm: "85", md: "130", lg: "130" }}
+                  startColor="grey"
+                  endColor="white"
+                />
               ) : (
                 <Image
                   src={user.avatar_url}
@@ -34,7 +38,13 @@ const Profile = ({ details, loading }) => {
               )}
             </Box>
             <Box ml={10} lineHeight="2" mt={-4}>
-              <SkeletonText noOfLines={3} mt={4} isLoaded={!loading}>
+              <SkeletonText
+                noOfLines={3}
+                mt={4}
+                isLoaded={!loading}
+                startColor="grey"
+                endColor="white"
+              >
                 <Text
                   fontSize={{ base: 14, sm: 14, md: 30, lg: 30 }}
                   fontWeight="900"
@@ -67,7 +77,12 @@ const Profile = ({ details, loading }) => {
             </Box>
           </Flex>
 
-          <Skeleton isLoaded={!loading} height="20px">
+          <Skeleton
+            isLoaded={!loading}
+            height="20px"
+            startColor="grey"
+            endColor="white"
+          >
             <Text
               my={7}
               fontSize={{

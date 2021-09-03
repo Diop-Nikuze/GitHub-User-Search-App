@@ -39,7 +39,12 @@ const SocialInfo = ({ details, loading }) => {
           >
             <Flex alignItems="center">
               <Image mr={5} src={iconLocation} alt="iconLocation"></Image>
-              <SkeletonText isLoaded={!loading} noOfLines={1}>
+              <SkeletonText
+                isLoaded={!loading}
+                noOfLines={1}
+                startColor="grey"
+                endColor="white"
+              >
                 <Text>
                   {user.location ? (
                     user.location
@@ -53,7 +58,12 @@ const SocialInfo = ({ details, loading }) => {
             </Flex>
             <Flex alignItems="center">
               <Image mr={4} src={iconWebsite} alt="iconWebsite"></Image>
-              <SkeletonText isLoaded={!loading} noOfLines={1}>
+              <SkeletonText
+                isLoaded={!loading}
+                noOfLines={1}
+                startColor="grey"
+                endColor="white"
+              >
                 <Text>
                   {user.blog ? (
                     user.blog
@@ -76,7 +86,12 @@ const SocialInfo = ({ details, loading }) => {
           >
             <Flex alignItems="center">
               <Image mr={5} src={iconTwitter} alt="iconTwitter"></Image>
-              <SkeletonText isLoaded={!loading} noOfLines={1}>
+              <SkeletonText
+                isLoaded={!loading}
+                noOfLines={1}
+                startColor="grey"
+                endColor="white"
+              >
                 <Text>
                   {user.twitter_username ? (
                     user.twitter_username
@@ -90,7 +105,12 @@ const SocialInfo = ({ details, loading }) => {
             </Flex>
             <Flex alignItems="center">
               <Image mr={5} src={iconCompany} alt="iconCompany"></Image>
-              <SkeletonText isLoaded={!loading} noOfLines={1}>
+              <SkeletonText
+                isLoaded={!loading}
+                noOfLines={1}
+                startColor="grey"
+                endColor="white"
+              >
                 <Text>
                   {user.company ? (
                     user.company

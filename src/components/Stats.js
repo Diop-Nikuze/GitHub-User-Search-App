@@ -28,7 +28,14 @@ const Stats = ({ details, loading }) => {
             >
               Repos
             </Text>
-            <SkeletonText isLoaded={!loading} noOfLines={1} w={65} mt={4}>
+            <SkeletonText
+              isLoaded={!loading}
+              noOfLines={1}
+              w={65}
+              mt={4}
+              startColor="grey"
+              endColor="white"
+            >
               <Text fontWeight="700" fontSize="20px" mt={-4}>
                 {user.public_repos}
               </Text>
@@ -41,7 +48,14 @@ const Stats = ({ details, loading }) => {
             >
               Followers
             </Text>
-            <SkeletonText isLoaded={!loading} noOfLines={1} w={65} mt={4}>
+            <SkeletonText
+              isLoaded={!loading}
+              noOfLines={1}
+              w={65}
+              mt={4}
+              startColor="grey"
+              endColor="white"
+            >
               <Text fontWeight="700" fontSize="20px" mt={-4}>
                 {user.followers}
               </Text>
@@ -54,7 +68,14 @@ const Stats = ({ details, loading }) => {
             >
               Following
             </Text>
-            <SkeletonText isLoaded={!loading} noOfLines={1} w={65} mt={4}>
+            <SkeletonText
+              isLoaded={!loading}
+              noOfLines={1}
+              w={65}
+              mt={4}
+              startColor="grey"
+              endColor="white"
+            >
               <Text fontWeight="700" fontSize="20px" mt={-4}>
                 {user.following}
               </Text>
