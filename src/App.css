@@ -4,14 +4,8 @@
   letter-spacing: -1px;
 }
 
-@media all and (max-width: 320px) {
-  .inputSearch::placeholder {
-    font-size: 9px;
-  }
-}
-
 @media all and (max-width: 425px) {
   .inputSearch::placeholder {
-    font-size: 13px;
+    font-size: 10px;
   }
 }
