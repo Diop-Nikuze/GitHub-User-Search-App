@@ -6,7 +6,7 @@ import View from "../View/View";
 const Api = () => {
   const [details, setDetails] = useState([]);
   const [search, setSearch] = useState("");
-  const [username, setUsername] = useState("nikuze");
+  const [username, setUsername] = useState("diop-nikuze");
   const [loading, setLoading] = useState(true);
   const [disabled, setDisabled] = useState(true);
 
